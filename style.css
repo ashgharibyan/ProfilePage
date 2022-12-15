@@ -1,0 +1,242 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* -------- HEADER -------- */
+
+.header {
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.leftHeader {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.headerMenu {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+li > a {
+    color: white;
+    text-decoration: none;
+}
+
+.activeLink{
+    font-weight: bold;
+}
+
+.signOut {
+    background-color: darkcyan;
+    color: white;
+    padding: 10px;
+}
+
+
+/* -------- PERSONAL INFO -------- */
+
+
+.personalInfo {
+    width: 400px;
+    border: 3px solid gray;
+}
+
+.bottomDesign {
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+
+.topDesign {
+    background-color: darkcyan;
+    height: 100px;
+}
+
+.profileImage {
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+h2 {
+    margin-top: 75px;
+}
+
+.locationInfo {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.mapMarker {
+    width: 15px;
+}
+
+.descriptionInfo {
+    margin-top: 20px;
+}
+
+.gearIcon {
+    height: 15px;
+}
+
+.editProfile {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+
+}
+
+/* -------- EDUCATION INFO -------- */
+
+
+.eduInfo {
+    width: 400px;
+    border: 3px solid gray;
+    margin-top: 30px;
+}
+
+.eduTitle {
+    background-color: rgb(46, 46, 46);
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.eduTexts {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.eduDate {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+/* -------- CONNECTION REQUESTS -------- */
+
+.connectionRequests {
+    width: 250px;
+    border: 3px solid gray;
+    margin-bottom: 30px;
+}
+
+.connectionRequestsHeader {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding:10px;
+    background-color: rgb(46, 46, 46);
+    color:white;
+}
+
+.totalConnections {
+    background-color: gray;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.userRequest {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+
+}
+
+.leftUserRequest {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.rightUserRequest {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+
+.requestImage {
+    height: 40px;
+    width: 40px;
+}
+
+.checkIcon, .cancelIcon {
+    height: 40px;
+    width: 40px;
+}
+
+
+/* -------- YOUR CONNECTIONS -------- */
+
+.yourConnections {
+    width: 250px;
+    border: 3px solid gray;
+}
+
+.yourConnectionsHeader {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding:10px;
+    background-color: rgb(46, 46, 46);
+    color:white;
+}
+
+.totalYourConnections {
+    background-color: gray;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.bottomDesign {
+    padding: 15px;
+    /* width: 250px; */
+    border-top: 3px solid gray;
+}
+
+
+.singleUserConnection {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin: 15px;
+}
+
+
+/* ----- SIDEBAR ----- */
+
+.bodyInfo {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-top: 30px;
+    gap: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+}
